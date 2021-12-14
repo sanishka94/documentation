@@ -25,9 +25,11 @@ Send get request to this endpoint: https://graph.facebook.com/me?access_token={u
 
 ### Get Long Lived Page Access Token
 Send get request to this endpoint: https://graph.facebook.com/{graph-api-version}/{user-id}/accounts?access_token={long-lived-user-access-token}
+or : https://graph.facebook.com/{graph-api-version}/{page-id}/?fields=access_token&access_token={long-live-token}
 
 - An example for graph API version: "v12.0". Make sure you put the current version here.
 - The Long lived pags access token will come in the "access token" attribute.
+- The page Id can be obtained in the same way the user id is obtained, but with a short lived page token taken from the graph api explorer
 
 
 ## Facebook Login
