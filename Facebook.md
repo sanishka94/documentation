@@ -32,6 +32,5 @@ Send get request to this endpoint: https://graph.facebook.com/{graph-api-version
 
 ## Facebook Login
 - Reference: 
--- https://developers.facebook.com/docs/reference/javascript/FB.getLoginStatus
--- https://developers.facebook.com/docs/reference/javascript/FB.login/v12.0
--
+  - https://developers.facebook.com/docs/reference/javascript/FB.getLoginStatus
+  - https://developers.facebook.com/docs/reference/javascript/FB.login/v12.0
