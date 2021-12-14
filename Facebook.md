@@ -28,3 +28,10 @@ Send get request to this endpoint: https://graph.facebook.com/{graph-api-version
 
 - An example for graph API version: "v12.0". Make sure you put the current version here.
 - The Long lived pags access token will come in the "access token" attribute.
+
+
+## Facebook Login
+- Reference: 
+-- https://developers.facebook.com/docs/reference/javascript/FB.getLoginStatus
+-- https://developers.facebook.com/docs/reference/javascript/FB.login/v12.0
+-
