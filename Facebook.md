@@ -14,6 +14,7 @@ Send get request to this endpoint: https://graph.facebook.com/{graph-api-version
                                    client_secret={app-secret}&
                                    fb_exchange_token={user-access-token}
                                    
+- An example for graph API version: "v12.0". Make sure you put the current version here.
 - App ID and the App secret can be obtained from: App page -> Settings -> Basic 
 - or from the url: https://developers.facebook.com/apps/{app-id}/dashboard)
 - For the access token, use your (short lived) access token generated from the graph api console.
@@ -24,4 +25,6 @@ Send get request to this endpoint: https://graph.facebook.com/me?access_token={u
 
 ### Get Long Lived Page Access Token
 Send get request to this endpoint: https://graph.facebook.com/{graph-api-version}/{user-id}/accounts?access_token={long-lived-user-access-token}
-- you will recieve your Long lived pags access token in the "access token" attribute.
+
+- An example for graph API version: "v12.0". Make sure you put the current version here.
+- The Long lived pags access token will come in the "access token" attribute.
