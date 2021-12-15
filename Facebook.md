@@ -28,7 +28,7 @@ or : https://graph.facebook.com/{graph-api-version}/{page-id}/?fields=access_tok
 - The page Id can be obtained in the same way the user id is obtained, but with a short lived page token taken from the graph api explorer
 
 ### Debug
-To debug and in some cases extend an access tokens, use this link: https://developers.facebook.com/tools/debug/accesstoken
+To debug and in some cases extend access tokens, use this link: https://developers.facebook.com/tools/debug/accesstoken
 
 
 ## Facebook Login
