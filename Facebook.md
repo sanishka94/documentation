@@ -8,11 +8,7 @@ Use this to make api calls and get access tokens.
 This can be generated from the side console in the graph api explorer console.
 
 ### Get Long Lived User Access Token
-Send get request to this endpoint: https://graph.facebook.com/{graph-api-version}/oauth/access_token?
-                                   grant_type=fb_exchange_token&
-                                   client_id={app-id}&
-                                   client_secret={app-secret}&
-                                   fb_exchange_token={user-access-token}
+Send get request to this endpoint: https://graph.facebook.com/{graph-api-version}/oauth/access_token?grant_type=fb_exchange_token&client_id={app-id}&client_secret={app-secret}&fb_exchange_token={user-access-token}
                                    
 - An example for graph API version: "v12.0". Make sure you put the current version here.
 - App ID and the App secret can be obtained from: App page -> Settings -> Basic 
