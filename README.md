@@ -2,7 +2,7 @@
 What I've learned
 
 
-##Setting up Git
+## Setting up Git
 ```
 git init
 git remote add origin <git repo link>
